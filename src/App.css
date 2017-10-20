@@ -1,5 +1,5 @@
 .App {
-  background: black;
+  background: #111116;
   color: white;
   text-align: center;
   font-family: monospace;
@@ -7,6 +7,6 @@
 }
 
 body {
-  background: black;
+  background: #111116;
   color: white;
 }

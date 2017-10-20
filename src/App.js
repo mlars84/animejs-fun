@@ -4,14 +4,11 @@ import anime from 'animejs'
 
 anime({
   targets: 'div',
-  translateX: [
-    { value: 100, duration: 1200 },
-    { value: 0, duration: 800 }
-  ],
-  rotate: '1turn',
-  backgroundColor: '#FFF',
+  translateX: 100,
   duration: 2000,
-  loop: true
+  loop: 3, // Play the animation 3 times
+  direction: 'reverse', // Play the animation in reverse
+  autoplay: false // Animation paused by default
 });
 
 class App extends Component {
